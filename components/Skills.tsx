@@ -13,7 +13,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='../public/assets/skills/html.png'
+                                src='/public/assets/skills/html.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -28,7 +28,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/css.png'
+                                src='/public/assets/skills/css.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -43,7 +43,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/javascript.png'
+                                src='/public/assets/skills/javascript.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -58,7 +58,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/bootstrap.png'
+                                src='/public/assets/skills/bootstrap.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -73,7 +73,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/php.png'
+                                src='/public/assets/skills/php.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -88,7 +88,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/mysql.png'
+                                src='/public/assets/skills/mysql.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -103,7 +103,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/nextjs.png'
+                                src='/public/assets/skills/nextjs.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -118,7 +118,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/tailwind.png'
+                                src='/public/assets/skills/tailwind.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -133,7 +133,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/mongo.png'
+                                src='/public/assets/skills/mongo.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -148,7 +148,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/node-express.png'
+                                src='/public/assets/skills/node-express.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -163,7 +163,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/react.png'
+                                src='/public/assets/skills/react.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -178,7 +178,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/node.png'
+                                src='/public/assets/skills/node.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -193,7 +193,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/typescript.png'
+                                src='/public/assets/skills/typescript.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -208,7 +208,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/python.png'
+                                src='/public/assets/skills/python.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -223,7 +223,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/github1.png'
+                                src='/public/assets/skills/github1.png'
                                 width={64}
                                 height={64}
                                 alt='/' 
@@ -238,7 +238,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src='/../public/assets/skills/postman.png'
+                                src='/public/assets/skills/postman.png'
                                 width={64}
                                 height={64}
                                 alt='/' 

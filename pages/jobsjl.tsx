@@ -22,7 +22,7 @@ const jobsjl = () => {
             <div className='col-span-4'>
                 <p className='uppercase tracking-widest text-[#044cd0]'>Project Overview</p>
                 <p>This application was built using Next.js, Tailwind CSS, MongoDB as database and deployed on Vercel.
-                    In this application users are able to post something on the feed, Users will be able to view other users post.
+                    In this application users are able to post something on the feed, users will be able to view other users post,
                     and users are able to change the website theme (Light Mode / Dark Mode). 
                     News data were provided by News API.
                 </p>

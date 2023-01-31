@@ -17,6 +17,7 @@ const Navbar = () => {
             router.asPath === '/jlplus' ||
             router.asPath === '/montana' ||
             router.asPath === '/visitbali' ||
+            router.asPath === '/jobsjl' ||
             router.asPath === '/portofolio' ||            
             router.asPath === '/memorygame' ||          
             router.asPath === '/jsgaming'

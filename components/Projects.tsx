@@ -5,6 +5,7 @@ import ProjectItem from './ProjectItem'
 import Jlplus from'../public/assets/projects/jlplus.jpg'
 import Montana from'../public/assets/projects/montana.jpg'
 import Visitbali from'../public/assets/projects/visitbali.jpg'
+import Jobsjl from'../public/assets/projects/jobsjl.jpg'
 import Porto from'../public/assets/projects/porto.jpg'
 import Memorygame from'../public/assets/projects/memorygame.jpg'
 import Jsgaming from'../public/assets/projects/jsgaming.jpg'
@@ -30,21 +31,26 @@ const Projects = () => {
             title='VISITBALI.'
             backgroundImg={Visitbali}
             projectUrl='/visitbali'
-          />
+            />
+            <ProjectItem
+            title='Jobs jl'
+            backgroundImg={Jobsjl}
+            projectUrl='/jobsjl'
+            />
             <ProjectItem
             title='Portofolio'
             backgroundImg={Porto}
             projectUrl='/portofolio'
             />
             <ProjectItem
-            title='ABCDEFGAME'
-            backgroundImg={Memorygame}
-            projectUrl='/memorygame'
-            />
-            <ProjectItem
             title='JS Gaming'
             backgroundImg={Jsgaming}
             projectUrl='/jsgaming'
+            />
+            <ProjectItem
+            title='ABCDEFGAME'
+            backgroundImg={Memorygame}
+            projectUrl='/memorygame'
             />
             </div>
         </div>

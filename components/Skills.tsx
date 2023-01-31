@@ -15,7 +15,7 @@ import nodeImg from '/public/assets/skills/node.png'
 import typescriptImg from '/public/assets/skills/typescript.png'
 import pythonImg from '/public/assets/skills/python.png'
 import githubImg from '/public/assets/skills/github1.png'
-import postmanImg from '/public/assets/skills/postman.png'
+import googlecloudImg from '/public/assets/skills/googlecloud.png'
 
 const Skills = () => {
   return (
@@ -254,14 +254,14 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
-                                src={postmanImg}
+                                src={googlecloudImg}
                                 width={64}
                                 height={64}
                                 alt='/' 
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Postman</h3>
+                            <h3>Google Cloud</h3>
                         </div>
                     </div>
                 </div>

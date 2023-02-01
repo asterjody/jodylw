@@ -55,26 +55,26 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+        <Link href="/#home" scroll={false}>
           <Image src="jl.svg" width={125} height={50} alt="" />
         </Link>
         <div className="p-8">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Project
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
+              <Link href="/#home" scroll={false}>
                 <Image src="jl.svg" width={125} height={50} alt="" />
               </Link>
               <div
@@ -118,7 +118,7 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/#home" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-3 text-sm border-b border-gray-300"
@@ -126,7 +126,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#about">
+              <Link href="/#about" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-3 text-sm border-b border-gray-300"
@@ -134,7 +134,7 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
-              <Link href="/#skills">
+              <Link href="/#skills" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-3 text-sm border-b border-gray-300"
@@ -142,7 +142,7 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <Link href="/#projects" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-3 text-sm border-b border-gray-300"
@@ -150,7 +150,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/#contacts">
+              <Link href="/#contact" scroll={false}>
                 <li
                   onClick={() => setNav(false)}
                   className="py-3 text-sm border-b border-gray-300"

@@ -34,7 +34,7 @@ function sidestay() {
             This application was built using Next.js, Tailwind CSS and deployed
             on Vercel. This application is made to provide an explanation about
             place that you can rent. In this application, you can choose date
-            and location.
+            and location by search.
           </p>
           <button className="font-semibold px-8 py-2 mt-6 hover:scale-105 ease-in duration-300">
             <a href="https://sidestay.vercel.app">Preview</a>
@@ -51,10 +51,6 @@ function sidestay() {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Tailwind CSS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Mapbox
               </p>
             </div>
           </div>

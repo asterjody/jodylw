@@ -4,6 +4,7 @@ import Jlplus from "../public/assets/projects/jlplus.jpg";
 import Montana from "../public/assets/projects/montana.jpg";
 import Visitbali from "../public/assets/projects/visitbali.jpg";
 import Sidestay from "../public/assets/projects/sidestay.jpg";
+import Thecook from "../public/assets/projects/thecook.jpg";
 import Jobsjl from "../public/assets/projects/jobsjl.jpg";
 import Porto from "../public/assets/projects/porto.jpg";
 import Memorygame from "../public/assets/projects/memorygame.jpg";
@@ -24,19 +25,24 @@ const Projects = () => {
             projectUrl="/jlplus"
           />
           <ProjectItem
-            title="Montana Car Wash"
-            backgroundImg={Montana}
-            projectUrl="/montana"
-          />
-          <ProjectItem
             title="SideStay"
             backgroundImg={Sidestay}
             projectUrl="/sidestay"
           />
           <ProjectItem
+            title="TheCook"
+            backgroundImg={Thecook}
+            projectUrl="/thecook"
+          />
+          <ProjectItem
             title="VISITBALI."
             backgroundImg={Visitbali}
             projectUrl="/visitbali"
+          />
+          <ProjectItem
+            title="Montana Car Wash"
+            backgroundImg={Montana}
+            projectUrl="/montana"
           />
           <ProjectItem
             title="Jobs jl"

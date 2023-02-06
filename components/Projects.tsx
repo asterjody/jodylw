@@ -2,6 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import Jlplus from "../public/assets/projects/jlplus.jpg";
 import Montana from "../public/assets/projects/montana.jpg";
+import Jlblog from "../public/assets/projects/jlblog.jpg";
 import Visitbali from "../public/assets/projects/visitbali.jpg";
 import Sidestay from "../public/assets/projects/sidestay.jpg";
 import Thecook from "../public/assets/projects/thecook.jpg";
@@ -43,6 +44,11 @@ const Projects = () => {
             title="Montana Car Wash"
             backgroundImg={Montana}
             projectUrl="/montana"
+          />
+          <ProjectItem
+            title="JL Blog"
+            backgroundImg={Jlblog}
+            projectUrl="/jlblog"
           />
           <ProjectItem
             title="Jobs jl"

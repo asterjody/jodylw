@@ -36,7 +36,7 @@ const jlblog = () => {
             application users are able to view posts on the feed.
           </p>
           <button className="font-semibold px-8 py-2 mt-6 hover:scale-105 ease-in duration-300">
-            <a href="https://jobsjl.vercel.app">Preview</a>
+            <a href="https://jlblog-asterjody.vercel.app">Preview</a>
           </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">

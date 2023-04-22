@@ -13,9 +13,9 @@ import expressImg from "/public/assets/skills/express.png";
 import reactImg from "/public/assets/skills/react.png";
 import nodeImg from "/public/assets/skills/node.png";
 import typescriptImg from "/public/assets/skills/typescript.png";
-import pythonImg from "/public/assets/skills/python.png";
-import githubImg from "/public/assets/skills/github1.png";
-import googlecloudImg from "/public/assets/skills/googlecloud.png";
+import angularImg from "/public/assets/skills/angular.png";
+import extjsImg from "/public/assets/skills/ext.png";
+import psqlImg from "/public/assets/skills/psql.png";
 
 const Skills = () => {
   return (
@@ -69,6 +69,46 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={bootstrapImg} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Bootstrap</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={angularImg} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Angular</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={extjsImg} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Ext.js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={psqlImg} width={64} height={64} alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={phpImg} width={64} height={64} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -79,10 +119,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={bootstrapImg} width={64} height={64} alt="/" />
+                <Image src={mysqlImg} width={64} height={64} alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Bootstrap</h3>
+                <h3>MySQL</h3>
               </div>
             </div>
           </div>
@@ -143,46 +183,6 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node.js</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={mysqlImg} width={64} height={64} alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>MySQL</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={pythonImg} width={64} height={64} alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Python</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={githubImg} width={64} height={64} alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={googlecloudImg} width={64} height={64} alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Google Cloud</h3>
               </div>
             </div>
           </div>
